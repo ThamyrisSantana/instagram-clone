@@ -1,0 +1,11 @@
+.account-container {
+  width: 87%;
+  height: 9%;
+
+  background: #fff;
+  border: 1px solid #dbdbdb;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

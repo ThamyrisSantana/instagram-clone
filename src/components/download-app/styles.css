@@ -1,0 +1,25 @@
+.download-container {
+  width: 87%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 1rem;
+}
+
+.downloads {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.google-play {
+  width: 177px;
+}
+
+.apple-store {
+  width: 179px;
+}

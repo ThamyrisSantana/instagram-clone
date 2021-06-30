@@ -1,0 +1,32 @@
+.App {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #fafafa;
+}
+
+.login-container,
+.phone-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram-cel {
+  margin-top: 5rem;
+  width: 480px;
+  left: -20px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  max-width: 990px;
+}
