@@ -1,6 +1,17 @@
+.account-wrap {
+  width: 100%;
+
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .account-container {
-  width: 87%;
-  height: 9%;
+  width: 450px;
+  height: 77px;
 
   background: #fff;
   border: 1px solid #dbdbdb;
@@ -8,4 +19,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  align-self: center;
+}
+
+@media (max-width: 1095px) {
+  .account-wrap {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 562px) {
+  .account-container {
+    width: 350px;
+    border: 0;
+    background: transparent;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 451px) {
+  .account-wrap {
+    width: 350px;
+    height: 40px;
+
+    margin: 0;
+  }
 }

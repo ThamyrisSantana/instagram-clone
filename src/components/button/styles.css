@@ -10,3 +10,16 @@
   font-weight: 600;
   font-size: 1.1rem;
 }
+
+@media (max-width: 451px) {
+  .loginBtn {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .loginBtn {
+    width: 11em;
+    font-size: 14px;
+  }
+}
